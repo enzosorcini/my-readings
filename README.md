@@ -8,3 +8,6 @@ This is a small project with the objective of exercising what I learn on web dev
 - CSS
 - JS
 - Git
+
+## Next Steps
+- Add basic bootstrap and forms after finishing said courses
