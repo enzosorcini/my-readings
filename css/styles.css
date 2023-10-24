@@ -1,20 +1,48 @@
-.container {
+/* GRID */
+body {
     display: grid;
+    height: 100vh;
     grid-template-columns: repeat(12,1fr);
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: auto 1fr auto;
 }
 
-.header {
-    background-color: red;
+header {
+    background-color: burlywood;
     grid-column: 1/ span 12;
 }
 
-.main {
-    background-color: blue;
+main {
+    background-color: white;
     grid-column: 1/ span 12;
 }
 
-.footer {
-    background-color: yellow;
+footer {
+    background-color: burlywood;
     grid-column: 1/ span 12;
+}
+
+/* HEADER WITH NAV BAR*/
+nav {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 75px;
+    padding: 20px;
+}
+
+.push-left {
+    margin-right: auto;
+}
+
+li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
 }
